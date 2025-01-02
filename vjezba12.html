@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    <form action="#" method="POST">
+        <label for="firstName"><strong>First Name:</strong> <span style="color:red">*</span></label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name..." required><br><br>
+
+        <label for="lastName"><strong>Last Name:</strong> <span style="color:red">*</span></label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name..." required><br><br>
+
+        <label for="email"><strong>Your E-mail:</strong> <span style="color:red">*</span></label><br>
+        <input type="email" id="email" name="email" placeholder="Your e-mail..." required><br><br>
+
+        <label for="country"><strong>Country:</strong></label><br>
+        <select id="country" name="country" required>
+            <option value="hr">Croatia</option>
+            <option value="us">United States</option>
+            <option value="de">Germany</option>
+            <option value="uk">United Kingdom</option>
+            <option value="fr">France</option>
+            <option value="it">Italy</option>
+        </select><br><br>
+
+        <label for="message"><strong>Message:</strong></label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write something..." required></textarea><br><br>
+
+        <button type="submit">Send</button>
+
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
